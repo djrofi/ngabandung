@@ -1,0 +1,44 @@
+body {
+    line-height:2;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul {
+    list-style:none;
+}
+header{
+	width: 100%;
+	background: #151515;
+}
+header:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+#Logo{
+    float:left;
+    background: url('images/ngaBandung.jpg');
+    width: 250px;
+    height: 70px;
+    text-indent: -10000px;
+}
+#Menu{
+	width: 280px;
+	height: 70px;
+	float: left;
+}
+nav{
+	float: right;
+}
+nav a:hover{
+    color: blue;
+}
+nav li{
+	float: left;
+	list-style-type: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
